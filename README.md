@@ -25,8 +25,8 @@ if (Meteor.isServer) {
 
 	// Products
 	let products = Products.find({ hidden: false }).fetch();
-  _.each(products, function (product) {
-  	// add a line for each product
-  }
+	_.each(products, function (product) {
+		// add a line for each product
+	}
 }
 ```
